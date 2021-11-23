@@ -1,0 +1,85 @@
+* {
+    font-family: sans-serif;
+    /* border-radius: 5px; */
+}
+
+body {
+    background-color: lavender;
+}
+
+#documents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#files {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+h1 {
+    color: rgb(0, 95, 155);
+}
+
+input {
+    resize: none;
+    /* width: 99%; */
+    font-size: medium;
+    padding: 10px;
+    margin: 5px;
+    /* font-family: monospace; */
+}
+
+table {
+    background-color: white;
+    /* border: solid 1px; */
+    border-collapse: collapse;
+}
+
+thead tr td {
+    color: black;
+    font-weight: bold;
+    /* text-decoration: underline; */
+}
+
+td {
+    border: solid 1px rgb(184, 184, 184);
+    padding: 5px;
+    /* margin: 1px; */
+    color: rgb(49, 49, 49);
+}
+
+#Simlarity,
+#TermFreq,
+#IDF,
+#DocVec {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+button {
+    font-weight: bolder;
+    font-size: large;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: solid 1px;
+    color: rgb(0, 95, 155);
+    ;
+}
+
+#Result{
+    background-color: white;
+    padding: 10px;
+}
+#Result div{
+    margin: 5px;
+    padding: 5px;
+}
+.bold{
+    font-weight: bold;
+}
